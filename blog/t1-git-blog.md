@@ -2,7 +2,7 @@ Max Rater's Programming Blog
 
 Learning Competencies
 
-Computer Programming
+Version Control, git and Github
 
 11/23/14
 
