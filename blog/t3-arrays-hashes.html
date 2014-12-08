@@ -2,7 +2,7 @@
 <head>
   <title>Arrays vs. Hashes</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href= "t3-arrays-hashes.css">
+  <link rel="stylesheet" type="text/css" href= "../stylesheets/t3-arrays-hashes.css">
 </head>
 
 <main>
@@ -11,48 +11,56 @@
   <h4>12/6/14</h4>
 
   <section font= 20px;>
-    Arrays
-    <p>
-Arrays and Hashes are used in order to store information, and they each have their own way of doing it. Array's can be used to store a list of values in a single variable. When creating your array, keep in mind that you can code in any variant of numbers, you can repeat numbers, and nothing has to be in any numeric mandate. In order to understand what an array is, you must know that each element in an array has an index. Its index is counted beginning at 0, and going up from there; with the next index counted as 1, and continuing forward. This is displayed in the example below from codeacademy:
+
+<p>
+When writing programs, we use Arrays and Hashes in order to store our collection of data. While Array's and Hashes are both able to do this, we will look at how they are created, where their differences lie, and what they do better or worse than each other. Array's can be used to store a list of values in a single variable. When creating your array, you can think of storing any type of information from a catalog of numbers, to an assortment of strings. In order to understand what an array is, you must know that each element in an array is indexed. This is what separates an Array from a Hash, which is data storage without an index. An Array's index is counted beginning at 0, and going up to 1,2,3,4,5, etc... ; with the next index counted as 1, and continuing forward. This is displayed in the example below with array's on the top and it's equivalent index on the bottom:
 
 </p>
 
-<img align = "center" src="https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-2/imgs/Screen%20Shot%202014-12-06%20at%2012.51.35%20PM.png?token=AIBF_W_K1o8BFExP67G4K6ztv0cW02-Tks5UjJ2kwA%3D%3D" style="width: 150px; height 100px"/>
+<img align = "center" src="https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-2/imgs/Screen%20Shot%202014-12-06%20at%2012.51.35%20PM.png?token=AIBF_W_K1o8BFExP67G4K6ztv0cW02-Tks5UjJ2kwA%3D%3D"/>
 
 <p>
-This gives us the ability to access elements of the array directly through these numbers. Arrays are useful if we want to make index are list. Here are examples of Arrays.
+This gives us the ability to access elements of the array directly through these numbers. Arrays are useful if we want to make our list of data indexed. Here is an examples of an Array and claling an Array.
     </p>
 
-<img src = "https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-2/imgs/Example%20of%20Array.png?token=AIBF_Qw6x5g0bOGV2CFVEJexFuxgZjRaks5UjKP_wA%3D%3D" />
+<img src = "https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-2/imgs/Example%20of%20Array.png?token=AIBF_Qw6x5g0bOGV2CFVEJexFuxgZjRaks5UjKP_wA%3D%3D" class="wide" />
 
 <p>
-This is an example of a multi-dimensional array, or an array within an array aka inception...
+Finally, this is an example of a multi-dimensional array, or an array within an array aka inception...
     </p>
 
-<img src= "https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-2/imgs/Example%20of%20a%20MultiDimensional%20Array.png?token=AIBF_b_4rn26jglH9fmtYNgnSkPScq2Dks5UjKRLwA%3D%3D" />
+<img src= "https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-2/imgs/Example%20of%20a%20MultiDimensional%20Array.png?token=AIBF_b_4rn26jglH9fmtYNgnSkPScq2Dks5UjKRLwA%3D%3D" class="wide" />
 
-    <p>
-If we don’t want to use numbers or indices, we can use a new array structure called a hash!
+<p> This is the last important and most important step. If we want to access values in our  Array this is how we do it: </p>
 
+<img src="https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-2/imgs/Screen%20Shot%202014-12-07%20at%208.35.44%20PM.png?token=AIBF_dN_s1w6NlCG6Ip0xCIJ5WoIjmNKks5UjjuewA%3D%3D"/>
+
+<p>
+So we can write the array and using indexing we are able to call on the value that we need.... Now if we don’t want to use numbers or indices, we can use a new array structure called a hash!
 </p>
 
 <p>
-A hash is a collection of data where each element of data is addressed by a name. Hashes are used when we don’t really care what order they are in. Hashes can be compared to JavaScript objects or Python dictionaries. A hash is an assembly of key-value pairs. A Hash syntax looks like this: *picture. Keys are on the left side and contain an arrow (=>), which is used to assign its value on the right side. This => is called a rocket.
+A hash is a collection of data where each element of data is addressed by a name(key) and tied to it's data(value). Hashes are used when we don’t really care what order they are in. Hashes can be rivaled to JavaScript objects or Python dictionaries. A hash is an assembly of key-value pairs. Keys are on the left side and contain an arrow (=>), which is used to assign its value on the right side. This =>, is called a rocket. One Hash syntax is shown below(there is one other way I will show after this:
 </p>
 
 <img src= "https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-2/imgs/EXAMPLE%20OF%20A%20HASH%20FORMAT.png?token=AIBF_VZBaRTFW-QKdshHQ50yuHNBcuLfks5UjKTAwA%3D%3D" />
 
-<p> In this example I created a hash filled with music artists and one of their famous songs... </p>
+<p> In this example I created a hash filled with music artists (key) and one of their famous songs(value)... </p>
 
-<img src= "https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-2/imgs/EXAMPLE%20OF%20A%20HASH.png?token=AIBF_ZVxsUzfPoV-Y2mjfPKlFPCT9TsAks5UjKU3wA%3D%3D" />
+<img src= "https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-2/imgs/EXAMPLE%20OF%20A%20HASH.png?token=AIBF_ZVxsUzfPoV-Y2mjfPKlFPCT9TsAks5UjKU3wA%3D%3D" class="wide"/>
 
 <p>
-A Hash can also be created by writting Hash.New and using bracket notation to list the keys and it's values.  This creates a new empty hash and is equivalent to setting a variable equal to empty curly braces.  A Hash.new uses bracket notation. We can access values in a hash just like an array.
+Here is the other way a Hash can be written. This syntax can be created by writting Hash.New and using bracket notation to list the keys and it's values.  This creates a new empty hash and is comparable to setting a variable equal to empty curly braces.  A Hash.new uses bracket notation. We can access values in a hash just like an array.
     </p>
 </p>
 
 <img src= "https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-2/imgs/Example%20of%20Hash.png?token=AIBF_dN3g8zsR2q5gmMvXWnoql-HWLyxks5UjKVvwA%3D%3D" />
 
+<p> If we want to access values in a Hash this is how we do it: </p>
+
+<img src="https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-2/imgs/Screen%20Shot%202014-12-07%20at%208.43.43%20PM.png?token=AIBF_b142NvlfZ97GUhDHEZMwcX2zIDpks5Ujj1ywA%3D%3D"/>
+<p>We call the hash and then write in whatever key we want in order to print the value that it is set to. </p>
+<p> As we can see Array's and Hashes are both useful for storing data collection. Both are vital in Ruby and can be created to store your data to in whatever way you woud like!
       <!-- copy and paste as many sections as you want to add paragraphs -->
   </section>
 </main>

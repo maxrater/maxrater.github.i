@@ -1,0 +1,27 @@
+h1 {
+text-align: center;
+}
+
+h2 {
+text-align: center;
+}
+
+h3 {
+text-align: center;
+}
+
+h4 {
+  font-family: "Times New Roman", sans-serif;
+  font-style: italic;
+  color: red;
+  font-size: 24px;
+  text-align: center;
+}
+
+section {
+border: center-align;
+}
+
+img.wide {
+  width: 1000px;
+}
