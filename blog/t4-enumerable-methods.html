@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+  <title>Enumerable Methods</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="enumerable-stylesheet.css">
+</head>
+
+<main>
+  <h1>Enumerable Methods</h1>
+  <h2>Map</h2>
+  <h4>12/19/14</h4>
+
+  <section>
+    <p>
+When working with Ruby Code, in order to make our code ebb and flow to our will, we use enumerator's. In compuer science an enumerator is an iterator, which in our case means that the enumerator method map, sifts through an array one element at a time, and outputs each element to the code block. Here is an example below:
+</p>
+
+<img src= "https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-1/imgs/Screen%20Shot%202014-12-19%20at%201.11.55%20PM.png?token=AIBF_SZrB7_1aFv5XExCDmUhTAsfdH2Lks5Una48wA%3D%3D" />
+
+ <p>
+When I think about enumerators, I always keep in mind the each method, which is the most vanilla of enumerators, but also the most useful because you can use it for everything. In order to better understand the method map we can compare it to the each method. When the each method is run on an assortment of objects, each examines each of your elements in relation to your code block, one at a time. The method map does this same exact processing with your code. The difference between each and map is potrayed in the return value. The method Each returns its receiver, but map shoots out a new array. The new array is always the same size as the original array, but in it's place of the original elemtns, the new array containts the ammassed return values of the code block from the iterations. Here is another example of the map method: </p>
+
+<img src= "https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-1/imgs/Screen%20Shot%202014-12-19%20at%201.06.33%20PM.png?token=AIBF_c6TxGsVEUPH4ehD7W-GVJZsJ4e0ks5Una5TwA%3D%3D" />
+
+    <p>
+In conclusion, the method map is an example of a destructive method. The mapping compiles a new array, each of whose elemtns corresponds to the element in the same position in the original array but processed through the block of code. Like the method each, the method map goes through each element of the array in turn. Unlike each, map stores the value that comes back straight from the block, which is how it creates the mapping of the old values to the new values: the new values are based on the old values, treated through the block.
+</p>
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
