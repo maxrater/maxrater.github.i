@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <title>"Ruby Classes"</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="ruby-classes.css">
+</head>
+
+<main>
+  <h1>Real World Objects</h1>
+  <h2>Investing Model</h2>
+  <h4>1/4/15</h4>
+
+  <section>
+    <p>
+A class in Ruby is derived of methods that allow us to create many objects that behave essentially in the same manner. We can use these methods to model real world objects. I wanted to create an Investments class that would model investing ones money into some low risk and high-risk options, to showcase an imaginary portfolio of assets and further demonstrate how classes can model a real-world object. In creating my class I wanted to choose arguments that would simulate a real life-investing portfolio. I chose some low risk options: annuities, bonds; and some high-risk options: collectibles (art, valuables), real estate (fluctuating markets), stocks and futures (increased volatility). This is a generalized framework but allows us create a class so that you can see how you would choose to spread your wealth across these different options depending on your risk aversion(if you are a risk taker or do not like risk at all). Check out Example 1 below!
+    </p>
+
+<img src= "https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-1/imgs/Screen%20Shot%202015-01-04%20at%206.25.39%20PM.png?token=AIBF_QoBIQsEOUthjsHiN8u4WltdG3Uqks5UswfUwA%3D%3D" />
+    <p>
+
+When we create a class such as (Investments), we can if we wish define a special method called initialize. In our class we use the initialize method to set an objects state at the time of the object’s creation and we can save these in instance variables that can be called on anywhere in the class. Instance variables always have an @ before them so we can recognize them. Everything that is occurring here is created during object-creation time. To show what is happening, if we were to call this method we would need to create a new instance of class. In order to stage this I changed our investing class to just have three arguments(arguments are everything in the parentheses), to make it easier to display how calling works in classes.
+
+    </p>
+
+    <img src= "https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-1/imgs/Screen%20Shot%202015-01-04%20at%206.26.05%20PM.png?token=AIBF_eX--bEIF7zyE_NjomqAOw25RQUfks5Uswu4wA%3D%3D" />
+
+    <p>
+ In Ex.2 I changed the arguments to future (a financial contract designating a buyer to purchase an asset, or a seller to sell an asset), which has a predetermined future date and price.  So in this example I set our futures to shares of Apple, to the date of 1/15/14 for 120 per share and we are able to print this (display this) by calling a new instance of investments (Investments.new) and setting it equal to inv. We can print this using puts, print or p (I chose p because it’s just faster).
+
+The last thing I wanted to propose was what would happen if we used attr_ aka attributes. When discussing attributes we are really talking about getter and setter methods. We can use attr_reader, attr_writer, and attr_accessor in the code under our class declaration. The attr_reader is a getter, which means it returns a value or state outside of the class, but doesn’t change it. An attr_writer is a setter, which means you can change the value of the variable outside of the class, but it is not legible. Next we have attr-accessor, which is both a getter and a setter. These attributes allow us to re-write our first example to the following:
+
+    </p>
+
+ <img src= "https://raw.githubusercontent.com/maxrater/phase-0-unit-1/master/week-1/imgs/Screen%20Shot%202015-01-04%20at%206.27.03%20PM.png?token=AIBF_QQPNkqs2T6eMYeop0bxAb1HygoCks5UswwAwA%3D%3D" />
+
+<p>
+So in conclusion In Ex. 3 we were able to refactor the code, making it more dynamic, shorter and concise using attr-accessor. This is an ideal way to structure your class and if you created any further methods in the class you would be able to write in any of the instance variables that have been initialized anywhere in the class.
+</p>
+
+  </section>
+</main>
+
