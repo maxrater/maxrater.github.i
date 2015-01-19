@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+  <title>Your page title here</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="t7-JavaScript.css">
+</head>
+
+<main>
+  <h1>Differences in Syntax</h1>
+  <h2>Looping in Ruby vs. Looping in JavaScript</h2>
+  <h4>1/16/15</h4>
+
+  <section>
+    <p>
+In programming we use looping in order to automate repetative tasks so that they might be more quickly and easily accessed. In Ruby and Javascript this is done in different ways....
+    </p>
+    <p>
+In Ruby the two best ways to loop are using the 'Each' Loop and the 'While' Loop. Ruby also has a for loop (just as JavaScript does) as well as a lot of built in methods, that allow you to loop in many different ways.
+    </p>
+
+    <p>
+
+Example 1 (We use the while loop)
+
+</p>
+
+<p>
+
+Olympic_Medals = ["Gold", "Silver", "Bronze"]
+
+while Olympic_Medals.length == 3
+  p Olympic_Medals
+  break
+end
+
+    </p>
+
+    <p>
+
+Example 2 (We use the select method, one of Ruby's built in method's)
+</p>
+
+<p>
+
+new_year_resoluion = {
+1 => "Go To The Gym",
+2 => "Travel",
+3 => "Find Your Passion",
+4 => "Screw New Years Resolutions",
+}
+
+new_year_resoluion.select do |key, value|
+  p value
+end
+
+    </p>
+
+    <p>
+
+Example 3
+
+</p>
+  <p>
+
+dope_music = ["keys n krates", "a-trak", "dipset", "jay-z", "diplo", "rl grime", "branchez", "gessaffelstein"]
+
+dope_music.each do |music|
+  p "#{music}"
+end
+
+    </p>
+    <p>
+In Javascript, in order to loop the syntax is slightly different...
+<div>
+We can use a for loop:
+</div>
+<div>
+Example 1
+</div>
+<div>
+for (var counter = 0; counter < 11; counter++) {
+  console.log(counter);}
+
+This prints out numbers 0 through 10.
+</div>
+<div>
+Example 2
+</div>
+
+<div>
+var DJ = ["deadmau5", "armin van burren", "tiesto", "martin garrix"]
+
+for (var x = 0; x < DJ.length; x++){
+console.log(DJ[x])}
+
+This prints out the names of the four DJ's
+</div>
+<div>
+We can also use while loops...
+</div>
+<div>
+A while loop runs as long as the condition is satisfied, in this occasion we set our lotteryWinner variable to true, so hence; while true, print out the string. Loops are also dangerous because they can become infinite loops, so we set lotteryWinner to equal false after printing out the string so that the loop will not go on forever and our program won't crash.
+</div>
+<div>
+Example 3
+</div>
+<div>
+var lotteryWinner = true
+
+while(lotteryWinner) {
+  console.log("You have won 100 billion dollers!")
+  lotteryWinner = false
+}
+
+This prints out the string: You have won 100 billion dollers
+
+</div>
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
