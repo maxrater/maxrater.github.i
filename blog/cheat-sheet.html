@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+  <title>Cheat sheet Ruby vs. JavaScript</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="cheat-sheet.css">
+</head>
+
+<main>
+  <div id = "container">
+  <h1>Ruby Loops vs. JavaScript Loops</h1>
+  <hr>
+      <div id = "javaScript">
+      <h2>JavaScript</h2>
+      <h3>Looping over object properties</h3>
+
+      <pre>
+        <code>
+          for (var property in obj) {
+            console.log("o." + property + " = " + obj[property]);
+          }
+        </code>
+      </pre>
+
+      <h3>Regular For Loop with index</h3>
+      <pre>
+        <code>
+
+          for (var i = 0; i< 9; i++) {
+            console.log("the index is" + i);
+            // more statements
+          }
+
+        </code>
+      </pre>
+      <h3>While Loop</h3>
+      <pre>
+        <code>
+
+          var n = 0;
+          var x = 0;
+
+          while (n < 3) {
+            n++;
+            x += n;
+          }
+        </code>
+      </pre>
+      </div>
+
+      <div id = "ruby">
+        <h2>Ruby Loops</h2>
+
+        <h3>Example(Each Loop) </h3>
+        <pre>
+          <code>
+            new_music = ["beyonce", "diplo", "bassnectar", "drake", "rihanna", "treasure fingers"]
+
+            new_music.each do |music|
+              p "#{music}"
+            end
+          </code>
+        </pre>
+
+        <h3>Example (For Loop)</h3>
+        <pre>
+          <code>
+          for num in 1...100
+              puts num
+          end
+          </code>
+        </pre>
+
+        <h3>Example(While Loop)</h3>
+        <pre>
+          <code>
+            Fav_Movie = ["Drive", "Pulp Fiction", "American Sniper", "Interstellar", "John Wick"]
+            i = 0
+            while i < 5
+              p Fav_movie(i)
+              i+=1
+            end
+          </code>
+        </pre>
+
+      </div>
+      <div style="clear: both" />
+
+    </div>
+</main>
+</div>
+</html>
