@@ -1,19 +1,32 @@
+
 h1 {
   text-align: center;
+  margin-bottom: 5%;
 }
 
-#Container {
-width: 100%;
+#container {
+    width: 100%;
 }
 
-#JavaScript {
-clear: left;
-width: 40%;
-float: left;
+#javaScript {
+    width: 45%;
+    float: left;
+    margin-left: 4%;
+    border-right: 1px dashed gray;
+    overflow-wrap: break-word;
 }
 
-#Ruby {
-clear: right;
-width: 40%;
-float: right;
+#javaScript h2 {
+    color: blue;
+}
+
+#ruby {
+    width: 45%;
+    float: right;
+    margin-right: 4%;
+    overflow-wrap: break-word;
+}
+
+#ruby h2 {
+    color: red;
 }
