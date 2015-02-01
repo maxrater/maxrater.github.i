@@ -1,4 +1,4 @@
-Max Rater's Programming Blog
+dMax Rater's Programming Blog
 
 Learning Competencies
 
